@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hero-project';
+  title = 'Angular_aula';
+  hero = 'Miranha';
+
+  ngOnInit(){
+  	console.log("This is my hero: " + this.hero);
+  }
 }
